@@ -1,0 +1,31 @@
+.text-input-wrapper{
+    margin-top: 20px;
+    margin-left: 25px;
+}
+.text-input {
+    width: 100%;
+    padding: 15px 15px;
+    width: 600px;
+    height: 8px;
+    border: 0.3px solid grey;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #333;
+    background-color: black;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+.text-input-title{
+    padding-top: 10px;
+    font-size: px;
+    color: white;
+}
+.text-input:focus {
+    border-color: white; /* Green border color */
+    box-shadow: 0 0 8px rgba(76, 175, 80, 0.3); /* Green shadow on focus */
+    outline: none;
+}
+
+.text-input::placeholder {
+    color: #999;
+    opacity: 1; /* Ensure placeholder text is visible */
+}
